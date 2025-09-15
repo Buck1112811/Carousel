@@ -110,7 +110,7 @@ const Index = () => {
             >
               <CarouselContent>
                 {slides.map((slide, index) => (
-                  <CarouselItem key={slide.id}>
+                  <CarouselItem key={slide.id} className="basis-1/2">
                     <Card className="border-0 bg-card/50 backdrop-blur-sm overflow-hidden group">
                       <div className="relative aspect-video overflow-hidden">
                         <img

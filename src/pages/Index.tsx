@@ -99,7 +99,7 @@ const Index = () => {
           </div>
 
           {/* Main Carousel */}
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-[1440px] mx-auto">
             <Carousel
               setApi={setApi}
               className="w-full animate-scale-in"
